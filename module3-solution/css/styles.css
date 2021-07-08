@@ -1,0 +1,51 @@
+.navbar{
+    background-color: gray;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+
+/*.navbar .container{*/
+/*    padding-right: 0;*/
+/*    padding-left: 0;*/
+/*}*/
+
+.navbar-toggler{
+    margin-bottom: 5px;
+}
+
+.nav-item{
+    border-bottom: 1px solid gray;
+}
+
+p{
+    background-color: gray;
+    padding: 30px;
+}
+
+.navbar-brand{
+    margin: 10px;
+    padding: 30px;
+}
+
+.navbar .navbar-toggler{
+    margin-right: 10px;
+}
+
+.navbar-nav{
+    background-color: white;
+}
+
+.nav-item{
+    padding-bottom: 0;
+}
+
+/*// X-Small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .navbar .navbar-brand{
+        margin: 10px;
+    }
+}
+
