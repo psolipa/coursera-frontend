@@ -4,11 +4,6 @@
     margin-bottom: 5px;
 }
 
-/*.navbar .container{*/
-/*    padding-right: 0;*/
-/*    padding-left: 0;*/
-/*}*/
-
 .navbar-toggler{
     margin-bottom: 5px;
 }
@@ -39,6 +34,11 @@ p{
     padding-bottom: 0;
 }
 
+h1{
+    font-size: 20px;
+    margin: 20px 20px 20px 0;
+}
+
 /*// X-Small devices (portrait phones, less than 576px)*/
 /*// No media query for `xs` since this is the default in Bootstrap*/
 
@@ -48,4 +48,3 @@ p{
         margin: 10px;
     }
 }
-
